@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="style-v2.css">
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="color-scheme" content="light only">
         <meta name="theme-color" content="#ffffff" />
+        <link rel="stylesheet" href="style.css?v=<?= time(); ?>">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>portfolio</title>
-        <link rel="stylesheet" href="style.css?v=<?= time(); ?>">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body class="scroll-container">
@@ -40,19 +40,19 @@
                         <h1 class="title">Education</h1>
                         <div class="workeduc-box">
                             <div class="workeduc-content">
-                                <span class="year"><i class='bx bxs-calendar'></i>2020</span>
-                                <h3>SSC</h3>
-                                <p>Smt. V.D. Desai Wadiwala School, Surat</p>
+                                <span class="year"><i class='bx bxs-calendar'></i>2022-2026</span>
+                                <h3> Computer Science in B.Tech</h3>
+                                <p> Sarvajanik College of Engineering and Technology (SCET), Surat</p>
                             </div>
                             <div class="workeduc-content">
-                                <span class="year"><i class='bx bxs-calendar'></i>2022</span>
+                                <span class="year"><i class='bx bxs-calendar'></i>2020-2022</span>
                                 <h3>HSC</h3>
                                 <p>Smt. V.D. Desai Wadiwala School, Surat</p>
                             </div>
                             <div class="workeduc-content">
-                                <span class="year"><i class='bx bxs-calendar'></i>2022-2026</span>
-                                <h3> Computer Science in B.Tech</h3>
-                                <p> Sarvajanik College of Engineering and Technology (SCET), Surat</p>
+                                <span class="year"><i class='bx bxs-calendar'></i>up to 2020</span>
+                                <h3>SSC</h3>
+                                <p>Smt. V.D. Desai Wadiwala School, Surat</p>
                             </div>
                         </div>
                         <span class="number-page">1</span>
@@ -66,35 +66,13 @@
                         <h1 class="title">Experience</h1>
                         <div class="workeduc-box">
                             <div class="workeduc-content">
-                                <span class="year"><i class='bx bxs-calendar'></i>November 2024</span>
+                                <span class="year"><i class='bx bxs-calendar'></i>19<sup>th</sup>&nbsp;June 2025</span>
                                 <div class="row-title-btn">
-                                    <h3 class="tooltip" data-tooltip="Issued by Great Learning Academy Covered fundamentals of React JS for front-end development">
-                                        React JS Tutorial
+                                    <h3 class="tooltip" data-tooltip="Issued by Unstop & K. Ramakrishnan College of Engineering">
+                                        Winner - Innovate & Inspire 13
                                     </h3>
                                     <div class="btn-box">
-                                        <a href="https://www.mygreatlearning.com/certificate/BUIUTREY" class="btn" target="_blank">View Certificate</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="workeduc-content">
-                                <span class="year"><i class='bx bxs-calendar'></i>April 2025</span>
-                                <div class="row-title-btn">
-                                    <h3 class="tooltip" data-tooltip="Completed via Forage - Skyscanner : Built a travel UI using React and Backpack">
-                                        Front-End Virtual Experience
-                                    </h3>  
-                                    <div class="btn-box">
-                                        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/skoQmxqhtgWmKv2pm/km4rw7dihDr3etqom_skoQmxqhtgWmKv2pm_ojrgANYHNzZmLS6n8_1745488677544_completion_certificate.pdf" class="btn" target="_blank">View Certificate</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="workeduc-content">
-                                <span class="year"><i class='bx bxs-calendar'></i>8<sup>th</sup>&nbsp;May 2025</span>
-                                <div class="row-title-btn">
-                                    <h3 class="tooltip" data-tooltip="Issued by LetsUpgrade in collaboration with NSDC, ITM and GDG MAD">
-                                        HTML & CSS Bootcamp
-                                    </h3>
-                                    <div class="btn-box">
-                                        <a href="https://verify.letsupgrade.in/certificate/LUEHTMLMAY125597" class="btn" target="_blank">View Certificate</a>
+                                        <a href="https://unstop.com/certificate-preview/6dfa3f4c-5607-43fb-a7c1-f1b2b3678270?utm_campaign=" class="btn" target="_blank">View Certificate</a>
                                     </div>
                                 </div>
                             </div>
@@ -110,13 +88,35 @@
                                 </div>
                             </div>
                             <div class="workeduc-content">
-                                <span class="year"><i class='bx bxs-calendar'></i>19<sup>th</sup>&nbsp;June 2025</span>
+                                <span class="year"><i class='bx bxs-calendar'></i>8<sup>th</sup>&nbsp;May 2025</span>
                                 <div class="row-title-btn">
-                                    <h3 class="tooltip" data-tooltip="Issued by Unstop & K. Ramakrishnan College of Engineering">
-                                        Winner - Innovate & Inspire 13
+                                    <h3 class="tooltip" data-tooltip="Issued by LetsUpgrade in collaboration with NSDC, ITM and GDG MAD">
+                                        HTML & CSS Bootcamp
                                     </h3>
                                     <div class="btn-box">
-                                        <a href="https://unstop.com/certificate-preview/6dfa3f4c-5607-43fb-a7c1-f1b2b3678270?utm_campaign=" class="btn" target="_blank">View Certificate</a>
+                                        <a href="https://verify.letsupgrade.in/certificate/LUEHTMLMAY125597" class="btn" target="_blank">View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="workeduc-content">
+                                <span class="year"><i class='bx bxs-calendar'></i>April 2025</span>
+                                <div class="row-title-btn">
+                                    <h3 class="tooltip" data-tooltip="Completed via Forage - Skyscanner : Built a travel UI using React and Backpack">
+                                        Front-End Virtual Experience
+                                    </h3>  
+                                    <div class="btn-box">
+                                        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/skoQmxqhtgWmKv2pm/km4rw7dihDr3etqom_skoQmxqhtgWmKv2pm_ojrgANYHNzZmLS6n8_1745488677544_completion_certificate.pdf" class="btn" target="_blank">View Certificate</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="workeduc-content">
+                                <span class="year"><i class='bx bxs-calendar'></i>November 2024</span>
+                                <div class="row-title-btn">
+                                    <h3 class="tooltip" data-tooltip="Issued by Great Learning Academy Covered fundamentals of React JS for front-end development">
+                                        React JS Tutorial
+                                    </h3>
+                                    <div class="btn-box">
+                                        <a href="https://www.mygreatlearning.com/certificate/BUIUTREY" class="btn" target="_blank">View Certificate</a>
                                     </div>
                                 </div>
                             </div>
@@ -280,5 +280,12 @@
         </div>
         <script src="script.js"></script>
         <script src="contact.js"></script>
+        <script>
+            const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            if (isDarkMode) {
+                document.body.classList.add('force-light');
+            }
+        </script>
     </body>
 </html>
